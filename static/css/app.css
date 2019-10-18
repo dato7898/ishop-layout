@@ -161,3 +161,36 @@ footer {
 	margin: 0 auto;
 	display: block;
 }
+
+.load-indicator {
+	background: url(../img/loading.gif) no-repeat center center;
+	height: 38px;
+	width: 38px;
+	display: block;
+}
+
+@media print {
+	.product .desc {
+		position: static;
+		display: block;
+		border-top: 1px solid #ddd;
+		overflow: hidden;
+		width: 160px;
+		text-overflow: ellipsis;
+	}
+
+	.buy-btn,
+	aside,
+	#addProductPopup {
+		display: none !important;
+	}
+
+	.product .price {
+		position: static;
+		float: right;
+	}
+
+	main {
+		width: 100% !important;
+	}
+}
