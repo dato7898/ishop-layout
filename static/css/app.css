@@ -152,11 +152,11 @@ footer {
 	margin-top: 10px;
 }
 
-.navbar-btn.navbar-right.sign-in {
+.navbar-right.sign-in {
 	margin-right: 10px;
 }
 
-#shoppingCart table img {
+img.small {
 	max-height: 80px;
 	margin: 0 auto;
 	display: block;
@@ -167,6 +167,10 @@ footer {
 	height: 38px;
 	width: 38px;
 	display: block;
+}
+
+.adv-chars {
+	margin-bottom: 15px;
 }
 
 @media print {
